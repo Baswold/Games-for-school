@@ -1,0 +1,31 @@
+# School Games Collection - Requirements
+# Python 3.6+ required
+
+# Core Requirements (Essential)
+# These come with Python standard library, listed for reference
+# tkinter - For turtle graphics (usually pre-installed with Python)
+
+# Optional Requirements
+# Install with: pip install -r requirements.txt
+
+# For background image games (background_maze.py)
+Pillow>=8.0.0
+
+# For ASCII webcam (picture_ASKII.py)
+opencv-python>=4.5.0
+numpy>=1.19.0
+
+# Development Dependencies (Optional)
+# Uncomment if doing development work
+
+# pytest>=6.0.0              # For unit testing
+# black>=21.0                # Code formatting
+# flake8>=3.9.0              # Linting
+# mypy>=0.900                # Type checking
+# pylint>=2.8.0              # Code analysis
+
+# Documentation (Optional)
+# Uncomment if building docs
+
+# sphinx>=4.0.0              # Documentation generator
+# sphinx-rtd-theme>=0.5.0    # Read the Docs theme
